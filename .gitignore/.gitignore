@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">
+		//1+2+3+4+..+100?
+		var sum=0;//sum和
+		var n=1;
+		while(n<=100){
+			sum+=n;
+			n++;
+
+		}
+		
+        document.write(sum);
+	</script>
+</body>
+</html>
